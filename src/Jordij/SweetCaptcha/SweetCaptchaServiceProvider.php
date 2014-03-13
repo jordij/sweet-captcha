@@ -22,16 +22,14 @@ class SweetCaptchaServiceProvider extends ServiceProvider {
 		
 		$this->package('jordij/sweet-captcha');
 		include __DIR__.'/../../routes.php';
-		
+
 		app()->singleton('SweetCaptcha', function()
 		{
 		    return new SweetCaptcha();
 		});
 
 		app('validator')->resolver(function($translator, $data, $rules, $messages) {
-			$messages = array(
-				'sweetcaptcha' => Lang::get('sweet-captcha::validation.sweetcaptcha')
-			);
+			$messages['sweetcaptcha'] = Lang::get('sweet-captcha::validation.sweetcaptcha');
 	        return new SweetCaptchaValidator($translator, $data, $rules, $messages);
 	    });
 
