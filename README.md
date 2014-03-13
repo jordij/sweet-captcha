@@ -31,7 +31,7 @@ Register your sweetCaptcha account **[here](http://www.sweetcaptcha.com/accounts
 Localization
 ------------
 
-By default the package will use the current locale of your Laravel application. If by any reasons you want to set a fix locale you can do it by editing the package configuration file `config/config.php`.
+By default the package will use the current locale of your Laravel application. If by any reasons you want to set a fixed locale you can do it by editing the package configuration file `config/config.php`.
 
 Usage
 -----
