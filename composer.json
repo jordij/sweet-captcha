@@ -1,0 +1,25 @@
+{
+    "name": "jordij/sweet-captcha",
+    "description": "Sweet Captcha for Laravel 4",
+    "license":"MIT",
+    "keywords": ["laravel","laravel 4", "sweetcaptcha", "captcha"],
+    "authors": [
+        {
+            "name": "Jordi J. Tablada",
+            "email": "hi@jordijoan.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Jordij\\SweetCaptcha\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
