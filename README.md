@@ -1,6 +1,8 @@
 sweet-captcha
 =============
 
+**IMPORTANT MALWARE ISSUE: [https://blog.sucuri.net/2015/06/sweetcaptcha-service-used-to-distribute-adware.html](https://blog.sucuri.net/2015/06/sweetcaptcha-service-used-to-distribute-adware.html)** 
+
 Laravel 4 Sweet Captcha Package
 -------------------------------
 
